@@ -1,0 +1,58 @@
+.featured-events {
+    margin-top: 20px;
+    .heading-style {
+        font-size: 24px;
+    }
+    .fe-items-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+
+        .fe-card-wrapper {
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            width: 32%;
+            .bc-date {
+                .event-date {
+                    font-size: 12px;
+                }
+                .bc-category {
+                    padding: 4px 10px;
+                    background: #e5eff9;
+                    border-radius: 5px;
+                    font-size: 12px;
+                }
+            }
+            .fe-card-image-wrapper {
+                display: flex;
+                align-items: center;
+
+                .c-heading {
+                    font-size: 16px;
+                    line-height: 1.4;
+                    margin: 0;
+                    max-width: 250px;
+                    margin-bottom: 1rem;
+                }
+
+                .bc-avatar {
+                    margin-left: 10px;
+                    border: 1px solid #dee2e6 !important;
+                    margin-bottom: 10px;
+                    img {
+                        width: 90px
+                    }
+                }
+                .event-location {
+                    font-size: 12px;
+                }
+
+                .c-text {
+                    font-size: 13px;
+                }
+            }
+
+        }
+    }
+}

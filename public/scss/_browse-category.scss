@@ -1,0 +1,33 @@
+.browse-category {
+    .heading-style {
+        font-size: 24px;
+    }
+    .bc-items-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        .bc-card {
+            display: flex;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            flex: 1;
+            .c-heading {
+                margin: 0;
+                font-size: 14px;
+                line-height: 1.2;
+            }
+
+            .bc-avatar {
+                font-size: 20px;
+                margin-right: 10px;
+                color: #00192f;
+            }
+            .c-text {
+                font-size: 13px;
+            }
+        }
+    }
+}
