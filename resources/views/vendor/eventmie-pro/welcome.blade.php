@@ -112,12 +112,13 @@
             <h3 class="heading-style">Featured Events <span class="small">handpicked popular events</span></h3>
             <div class="fe-items-wrapper">
                 <div class="fe-card-wrapper">
-                    <div class="bc-date">
-                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                        <a class="bc-category" href="#">Science &amp; Research</a>
-                    </div>
+                    
                     <div class="fe-card-image-wrapper">
                         <div class="bc-card-text">
+                            <div class="bc-date">
+                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                <a class="bc-category" href="#">Science &amp; Research</a>
+                            </div>
                             <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
                             <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
@@ -129,12 +130,13 @@
                 </div>
 
                 <div class="fe-card-wrapper">
-                    <div class="bc-date">
-                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                        <a class="bc-category" href="#">Science &amp; Research</a>
-                    </div>
+                   
                     <div class="fe-card-image-wrapper">
                         <div class="bc-card-text">
+                            <div class="bc-date">
+                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                <a class="bc-category" href="#">Science &amp; Research</a>
+                            </div>
                             <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
                             <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
@@ -146,12 +148,13 @@
                 </div>
 
                 <div class="fe-card-wrapper">
-                    <div class="bc-date">
-                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                        <a class="bc-category" href="#">Science &amp; Research</a>
-                    </div>
+                    
                     <div class="fe-card-image-wrapper">
                         <div class="bc-card-text">
+                            <div class="bc-date">
+                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                <a class="bc-category" href="#">Science &amp; Research</a>
+                            </div>
                             <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
                             <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
@@ -163,12 +166,13 @@
                 </div>
 
                 <div class="fe-card-wrapper">
-                    <div class="bc-date">
-                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                        <a class="bc-category" href="#">Science &amp; Research</a>
-                    </div>
+
                     <div class="fe-card-image-wrapper">
                         <div class="bc-card-text">
+                            <div class="bc-date">
+                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                <a class="bc-category" href="#">Science &amp; Research</a>
+                            </div>
                             <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
                             <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
@@ -180,12 +184,12 @@
                 </div>
 
                 <div class="fe-card-wrapper">
-                    <div class="bc-date">
-                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                        <a class="bc-category" href="#">Science &amp; Research</a>
-                    </div>
                     <div class="fe-card-image-wrapper">
                         <div class="bc-card-text">
+                            <div class="bc-date">
+                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                <a class="bc-category" href="#">Science &amp; Research</a>
+                            </div>
                             <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
                             <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
@@ -197,12 +201,12 @@
                 </div>
 
                 <div class="fe-card-wrapper">
-                    <div class="bc-date">
-                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                        <a class="bc-category" href="#">Science &amp; Research</a>
-                    </div>
                     <div class="fe-card-image-wrapper">
                         <div class="bc-card-text">
+                            <div class="bc-date">
+                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                <a class="bc-category" href="#">Science &amp; Research</a>
+                            </div>
                             <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
                             <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
@@ -229,30 +233,208 @@
         <h3 class="heading-style">Live Webinars <i class="fas fa-satellite-dish"></i></h3>
         <div class="live-webinars-card-wrapper">
             <div class="card lw-card-style">
-                <a class="" href="#">
-                    <div class="img-wrapper">
-                        <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg"
-                            class="card-img" alt="">
-                        <img class="position-absolute rounded-3"
-                            src="https://img.10times.com/images/event/562534/eventlogo-85-1599215513.jpg?imgeng=/w_60/h_60/m_stretch/cmpr_60"
-                            width="48" height="48" alt="Certified Pr..." loading="lazy"
-                            style="top: 10px; right: 10px; z-index: 2;">
-                        <span class="position-absolute badge bg-danger rounded-pill"
-                            style="top: 10px; left: 10px;">live</span>
-                        <span><i class="far fa-bookmark"></i></span>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
-                        <p class="card-text">Education & Training</p>
-                        <a href="#" class="btn btn-primary stretched-link">SAFe Agile Product Manager Online</a>
-                    </div>
-                </a>
+                <div class="img-wrapper">
+                    <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg"
+                        class="card-img" alt="">
+                    <span class="lw-name">Mentor Health</span>
+                    <span class="live-badge">live</span>
+                    <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
+                    <p class="card-text">Education & Training</p>
+                    <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+                </div>
+            </div>
+
+            <div class="card lw-card-style">
+                <div class="img-wrapper">
+                    <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg"
+                        class="card-img" alt="">
+                    <span class="lw-name">Mentor Health</span>
+                    <span class="live-badge">live</span>
+                    <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
+                    <p class="card-text">Education & Training</p>
+                    <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+                </div>
+            </div>
+
+            <div class="card lw-card-style">
+                <div class="img-wrapper">
+                    <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg"
+                        class="card-img" alt="">
+                    <span class="lw-name">Mentor Health</span>
+                    <span class="live-badge">live</span>
+                    <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
+                    <p class="card-text">Education & Training</p>
+                    <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+                </div>
             </div>
         </div>
+        <a id="live-btn" class="btn lw-view-all-btn" href="https://10times.com/online">View All</a>
     </div>
 </section>
 
 <!-- Live Webinars end-->
+
+
+
+
+<!-- Popular Speakers start -->
+
+<section class="popular-speakers-section">
+    <div class="container">
+        <h3 class="heading-style">Popular Speakers  <span class="small">to follow</span></h3>
+        <div class="popular-speakers-card-wrapper">
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/7/5/1/15098751.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Sandra Aamodt</h5>
+                    <p class="ps-detials">Neuroscientist and science writer </p>
+                    <p class="ps-followers"> 29 Events • 214 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/7/5/6/15098756.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Leyla Acaroglu</h5>
+                    <p class="ps-detials">Chief Disrupter at Un-School of Disruptive Design </p>
+                    <p class="ps-followers"> 27 Events • 138 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/5/1/6/15101516.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Lemon Andersen</h5>
+                    <p class="ps-detials">Writer/Actor </p>
+                    <p class="ps-followers"> 25 Events • 86 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/7/5/1/15098751.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Sandra Aamodt</h5>
+                    <p class="ps-detials">Neuroscientist and science writer </p>
+                    <p class="ps-followers"> 29 Events • 214 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/7/5/6/15098756.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Leyla Acaroglu</h5>
+                    <p class="ps-detials">Chief Disrupter at Un-School of Disruptive Design </p>
+                    <p class="ps-followers"> 27 Events • 138 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/5/1/6/15101516.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Lemon Andersen</h5>
+                    <p class="ps-detials">Writer/Actor </p>
+                    <p class="ps-followers"> 25 Events • 86 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Popular Speakers end -->
+
+<!-- Top Networker start -->
+
+<section class="popular-speakers-section">
+    <div class="container">
+        <h3 class="heading-style">Top Networker   <span class="small">to connect</span></h3>
+        <div class="popular-speakers-card-wrapper">
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/7/5/6/15098756.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Leyla Acaroglu</h5>
+                    <p class="ps-detials">Chief Disrupter at Un-School of Disruptive Design </p>
+                    <p class="ps-followers"> 27 Events • 138 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/7/5/1/15098751.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Sandra Aamodt</h5>
+                    <p class="ps-detials">Neuroscientist and science writer </p>
+                    <p class="ps-followers"> 29 Events • 214 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+            
+
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/5/1/6/15101516.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Lemon Andersen</h5>
+                    <p class="ps-detials">Writer/Actor </p>
+                    <p class="ps-followers"> 25 Events • 86 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/7/5/6/15098756.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Leyla Acaroglu</h5>
+                    <p class="ps-detials">Chief Disrupter at Un-School of Disruptive Design </p>
+                    <p class="ps-followers"> 27 Events • 138 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/7/5/1/15098751.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Sandra Aamodt</h5>
+                    <p class="ps-detials">Neuroscientist and science writer </p>
+                    <p class="ps-followers"> 29 Events • 214 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+
+            
+
+            <div class="card ps-card-style"> 
+                <img src="https://img.10times.com/user/images/5/1/6/15101516.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
+                <div class="card-content">
+                    <h5 class="ps-name">Lemon Andersen</h5>
+                    <p class="ps-detials">Writer/Actor </p>
+                    <p class="ps-followers"> 25 Events • 86 Followers</p>
+                    <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Top Networker end -->
+
+
+
 
 
 

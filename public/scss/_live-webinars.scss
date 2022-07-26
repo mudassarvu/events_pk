@@ -2,6 +2,7 @@
     margin-top: 2rem;
     background: linear-gradient(180deg, #f0f0f0, #e7e7e7, #d7d7d7, #e7e7e7, transparent);
 
+
     .heading-style {
         font-size: 24px;
 
@@ -12,36 +13,124 @@
         }
     }
 
-    .lw-card-style {
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
-        border-radius: 5px;
-        width: 32%;
-        position: relative;
-        background: #fff;
-        .card-body {
-            padding: 10px 20px;
-        }
+    .live-webinars-card-wrapper {
+        display: flex;
+        gap: 22px;
 
-        .img-wrapper {
-            overflow: hidden;
+        .lw-card-style {
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+            border-radius: 5px;
+            width: 32%;
             position: relative;
-            height: 150px;
-            &::after {
-                content: '';
-                display: block;
-                padding-top: 150px;
+            background: #fff;
+
+            .card-body {
+                padding: 10px;
+
+                .card-title {
+                    font-size: 14px;
+                    line-height: 1.2;
+                    font-weight: bold;
+                    margin-top: 0;
+                }
+
+                .card-text,
+                .title-full-link {
+                    display: block;
+                    height: 1.5em;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    font-size: 14px;
+                    overflow: hidden;
+                }
+
+                .title-full-link {
+                    color: #0a58ca;
+                    margin-top: 10px;
+                }
             }
 
-            .card-img {
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
-                
+            .img-wrapper {
+                overflow: hidden;
+                position: relative;
+                height: 150px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    padding-top: 150px;
+                }
+
+                .card-img {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+
+
+                }
+
+                .live-badge {
+                    position: absolute;
+                    left: 5px;
+                    top: 5px;
+                    color: #fff;
+                    background: #dc3545;
+                    padding: 0px 10px;
+                    border-radius: 14px;
+                    font-size: 14px;
+                }
+
+                .lw-name {
+                    position: absolute;
+                    right: 5px;
+                    color: #fff;
+                    max-width: 70%;
+                    background: #1a1a2e;
+                    top: 5px;
+                    border-radius: 5px;
+                    padding: 3px 7px;
+                    font-size: 14px;
+                }
+
+                .lw-bookmark-btn {
+                    position: absolute;
+                    right: 5px;
+                    bottom: 5px;
+                    width: 36px;
+                    height: 36px;
+                    background: #fff;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    i {
+                        color: #000;
+                        font-size: 18px;
+                    }
+                }
             }
+        }
+    }
+    .lw-view-all-btn {
+        border-color: #6c757d;
+        border-radius: 20px;
+        color: #6c757d;
+        margin-top: 30px;
+        padding: 10px 30px;
+        font-weight: bold;
+        &:hover {
+            color: #fff;
+            background-color: #6c757d;
+            border-color: #6c757d;
         }
     }
 }
