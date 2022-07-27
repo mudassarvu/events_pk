@@ -226,7 +226,7 @@
 
 
 
-<!--  Live Webinars start-->
+<!--  Live Webinars start -->
 
 <section class="live-webinars-section container-fluid">
     <div class="container">
@@ -282,6 +282,52 @@
 </section>
 
 <!-- Live Webinars end-->
+
+
+<!-- Browse Events by City start -->
+
+
+<section class="events-by-city">
+    <div class="container">
+        <h3 class="heading-style">Browse Events by City</h3>
+        <div class="events-by-city-card-wrapper">
+            <div class="card ebc-card-style">
+                <h5 class="city-name">London</h5>
+                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                <p class="city-events-number">2103 Events</p>
+            </div>
+            <div class="card ebc-card-style">
+                <h5 class="city-name">London</h5>
+                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                <p class="city-events-number">2103 Events</p>
+            </div>
+            <div class="card ebc-card-style">
+                <h5 class="city-name">London</h5>
+                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                <p class="city-events-number">2103 Events</p>
+            </div>
+            <div class="card ebc-card-style">
+                <h5 class="city-name">London</h5>
+                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                <p class="city-events-number">2103 Events</p>
+            </div>
+            <div class="card ebc-card-style">
+                <h5 class="city-name">London</h5>
+                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                <p class="city-events-number">2103 Events</p>
+            </div>
+            <div class="card ebc-card-style">
+                <h5 class="city-name">London</h5>
+                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                <p class="city-events-number">2103 Events</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Browse Events by City end -->
+
+
 
 
 

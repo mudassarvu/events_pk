@@ -1,0 +1,31 @@
+.events-by-city{
+    .heading-style {
+        font-size: 24px;
+    }
+    .events-by-city-card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+        .ebc-card-style {
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+            border-radius: 5px;
+            width: 15%;
+            position: relative;
+            background: #fff;
+            padding: 10px 10px;
+            text-align: center;
+            .city-name {
+                margin-top: 0;
+                font-size: 14px;
+            }
+            .city-logo {
+                height: 50px;
+                max-width: 100%;
+                margin-bottom: 10px;
+            }
+            .city-events-number {
+                font-size: 14px;
+            }
+        }
+    }
+}
