@@ -1,0 +1,27 @@
+.featured-organizers-section {
+    .heading-style {
+        font-size: 24px;
+    }
+    .featured-organizers-card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+        .fo-card-style {
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+            border-radius: 5px;
+            width: 15%;
+            position: relative;
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            .card-image {
+                height: 60px;
+                max-width: 100%;
+            }
+            
+        }
+    }
+    .featured-events-item {
+        margin: 10px;
+    }
+}

@@ -1,4 +1,4 @@
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
 <!-- Packages CSS -->
 <link rel="stylesheet" href="{{ eventmie_asset('css/vendor_v1.7.css') }}">
 
@@ -17,8 +17,16 @@
 <!-- CUSTOM CSS -->
 
 <!-- events home page css start  -->
+<link rel="stylesheet" href="{{ asset('css/slick.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/slick-theme.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
+
+
 <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
 <!--  events home page css end -->
+
+
+
 
 <script type="text/javascript">
 

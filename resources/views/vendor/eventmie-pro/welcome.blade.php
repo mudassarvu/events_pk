@@ -48,50 +48,93 @@
         <div class="container">
             <h3 class="heading-style">Browse by Category</h3>
             <div class="bc-items-wrapper">
-                <div class="card bc-card">
-                    <div class="bc-avatar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="bc-card-text">
-                        <h3 class="c-heading">Education & Training</h3>
-                        <p class="c-text">20455 Events</p>
-                    </div>
+                <div>
+                    <div class="card bc-card">
+                        <div class="bc-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="bc-card-text">
+                            <h3 class="c-heading">Education & Training</h3>
+                            <p class="c-text">20455 Events</p>
+                        </div>
+                    </div> 
                 </div>
-                <div class="card bc-card">
-                    <div class="bc-avatar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="bc-card-text">
-                        <h3 class="c-heading">Education & Training</h3>
-                        <p class="c-text">20455 Events</p>
-                    </div>
+                <div>
+                    <div class="card bc-card">
+                        <div class="bc-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="bc-card-text">
+                            <h3 class="c-heading">Education & Training</h3>
+                            <p class="c-text">20455 Events</p>
+                        </div>
+                    </div> 
                 </div>
-                <div class="card bc-card">
-                    <div class="bc-avatar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="bc-card-text">
-                        <h3 class="c-heading">Education & Training</h3>
-                        <p class="c-text">20455 Events</p>
-                    </div>
+                <div>
+                    <div class="card bc-card">
+                        <div class="bc-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="bc-card-text">
+                            <h3 class="c-heading">Education & Training</h3>
+                            <p class="c-text">20455 Events</p>
+                        </div>
+                    </div> 
                 </div>
-                <div class="card bc-card">
-                    <div class="bc-avatar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="bc-card-text">
-                        <h3 class="c-heading">Education & Training</h3>
-                        <p class="c-text">20455 Events</p>
-                    </div>
+                <div>
+                    <div class="card bc-card">
+                        <div class="bc-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="bc-card-text">
+                            <h3 class="c-heading">Education & Training</h3>
+                            <p class="c-text">20455 Events</p>
+                        </div>
+                    </div> 
                 </div>
-                <div class="card bc-card">
-                    <div class="bc-avatar">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="bc-card-text">
-                        <h3 class="c-heading">Education & Training</h3>
-                        <p class="c-text">20455 Events</p>
-                    </div>
+                <div>
+                    <div class="card bc-card">
+                        <div class="bc-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="bc-card-text">
+                            <h3 class="c-heading">Education & Training</h3>
+                            <p class="c-text">20455 Events</p>
+                        </div>
+                    </div> 
+                </div>
+                <div>
+                    <div class="card bc-card">
+                        <div class="bc-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="bc-card-text">
+                            <h3 class="c-heading">Education & Training</h3>
+                            <p class="c-text">20455 Events</p>
+                        </div>
+                    </div> 
+                </div>
+                <div>
+                    <div class="card bc-card">
+                        <div class="bc-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="bc-card-text">
+                            <h3 class="c-heading">Education & Training</h3>
+                            <p class="c-text">20455 Events</p>
+                        </div>
+                    </div> 
+                </div>
+                <div>
+                    <div class="card bc-card">
+                        <div class="bc-avatar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="bc-card-text">
+                            <h3 class="c-heading">Education & Training</h3>
+                            <p class="c-text">20455 Events</p>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -110,113 +153,321 @@
     <div class="container-fluid bg-white featured-events">
         <div class="container">
             <h3 class="heading-style">Featured Events <span class="small">handpicked popular events</span></h3>
-            <div class="fe-items-wrapper">
-                <div class="fe-card-wrapper">
-                    
-                    <div class="fe-card-image-wrapper">
-                        <div class="bc-card-text">
-                            <div class="bc-date">
-                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                <a class="bc-category" href="#">Science &amp; Research</a>
+            <div class="featured-events-slider">
+                <div class="featured-events-item">
+                    <div class="fe-items-wrapper">
+                        <div class="fe-card-wrapper"> 
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
                             </div>
-                            <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                            <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
-                        <div class="bc-avatar">
-                            <img
-                                src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="fe-card-wrapper">
-                   
-                    <div class="fe-card-image-wrapper">
-                        <div class="bc-card-text">
-                            <div class="bc-date">
-                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                <a class="bc-category" href="#">Science &amp; Research</a>
+                <div class="featured-events-item">
+                    <div class="fe-items-wrapper">
+                        <div class="fe-card-wrapper"> 
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
                             </div>
-                            <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                            <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
-                        <div class="bc-avatar">
-                            <img
-                                src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                        </div>
-                    </div>
-                </div>
 
-                <div class="fe-card-wrapper">
-                    
-                    <div class="fe-card-image-wrapper">
-                        <div class="bc-card-text">
-                            <div class="bc-date">
-                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                <a class="bc-category" href="#">Science &amp; Research</a>
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
                             </div>
-                            <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                            <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
-                        <div class="bc-avatar">
-                            <img
-                                src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                        </div>
-                    </div>
-                </div>
 
-                <div class="fe-card-wrapper">
-
-                    <div class="fe-card-image-wrapper">
-                        <div class="bc-card-text">
-                            <div class="bc-date">
-                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                <a class="bc-category" href="#">Science &amp; Research</a>
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
                             </div>
-                            <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                            <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
-                        <div class="bc-avatar">
-                            <img
-                                src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                        </div>
-                    </div>
-                </div>
 
-                <div class="fe-card-wrapper">
-                    <div class="fe-card-image-wrapper">
-                        <div class="bc-card-text">
-                            <div class="bc-date">
-                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                <a class="bc-category" href="#">Science &amp; Research</a>
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
                             </div>
-                            <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                            <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
-                        <div class="bc-avatar">
-                            <img
-                                src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                        </div>
-                    </div>
-                </div>
 
-                <div class="fe-card-wrapper">
-                    <div class="fe-card-image-wrapper">
-                        <div class="bc-card-text">
-                            <div class="bc-date">
-                                <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                <a class="bc-category" href="#">Science &amp; Research</a>
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
                             </div>
-                            <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                            <p class="event-location">Bangkok, Thailand • Online</p>
                         </div>
-                        <div class="bc-avatar">
-                            <img
-                                src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fe-card-wrapper">
+                            <div class="fe-card-image-wrapper">
+                                <div class="bc-card-text">
+                                    <div class="bc-date">
+                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
+                                        <a class="bc-category" href="#">Science &amp; Research</a>
+                                    </div>
+                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
+                                    <p class="event-location">Bangkok, Thailand • Online</p>
+                                </div>
+                                <div class="bc-avatar">
+                                    <img
+                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -284,6 +535,8 @@
 <!-- Live Webinars end-->
 
 
+
+
 <!-- Browse Events by City start -->
 
 
@@ -327,6 +580,110 @@
 
 <!-- Browse Events by City end -->
 
+
+
+<!-- Explore Venues start -->
+
+<section class="explore-venues-section">
+    <div class="container">
+        <h3 class="heading-style">Explore Venues</h3>
+        <div class="explore-venues-card-wrapper">
+            <a href="#" class="ev-card-style">
+                <div class="card"> 
+                    <h5 class="events-title">Tokyo Big Sight</h5>
+                    <p class="location">Koto • Japan</p>
+                    <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
+                </div>
+            </a>
+            <a href="#" class="ev-card-style">
+                <div class="card"> 
+                    <h5 class="events-title">Tokyo Big Sight</h5>
+                    <p class="location">Koto • Japan</p>
+                    <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
+                </div>
+            </a>
+            <a href="#" class="ev-card-style">
+                <div class="card"> 
+                    <h5 class="events-title">Tokyo Big Sight</h5>
+                    <p class="location">Koto • Japan</p>
+                    <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
+                </div>
+            </a>
+            <a href="#" class="ev-card-style">
+                <div class="card"> 
+                    <h5 class="events-title">Tokyo Big Sight</h5>
+                    <p class="location">Koto • Japan</p>
+                    <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
+                </div>
+            </a>
+            <a href="#" class="ev-card-style">
+                <div class="card"> 
+                    <h5 class="events-title">Tokyo Big Sight</h5>
+                    <p class="location">Koto • Japan</p>
+                    <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
+                </div>
+            </a>
+            <a href="#" class="ev-card-style">
+                <div class="card"> 
+                    <h5 class="events-title">Tokyo Big Sight</h5>
+                    <p class="location">Koto • Japan</p>
+                    <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
+                </div>
+            </a>
+        </div>
+        <a class="btn ev-view-all-btn" href="#">View All</a>
+    </div>
+</section>
+
+
+<!--  Explore Venues end -->
+
+
+
+
+<!-- Featured Organizers start -->
+
+<section class="featured-organizers-section">
+    <div class="container">
+        <h3 class="heading-style">Featured Organizers 
+            <span class="small">worldwide leading event organisers</span></h3>
+        <div class="featured-organizers-card-wrapper">
+            <a href="#" class="fo-card-style">
+                <div class="card"> 
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
+                </div>
+            </a>
+            <a href="#" class="fo-card-style">
+                <div class="card"> 
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
+                </div>
+            </a>
+            <a href="#" class="fo-card-style">
+                <div class="card"> 
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
+                </div>
+            </a>
+            <a href="#" class="fo-card-style">
+                <div class="card"> 
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
+                </div>
+            </a>
+            <a href="#" class="fo-card-style">
+                <div class="card"> 
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
+                </div>
+            </a>
+            <a href="#" class="fo-card-style">
+                <div class="card"> 
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!--  Featured Organizers end -->
 
 
 
@@ -853,4 +1210,10 @@ var google_map_key = {
 };
 </script>
 <script type="text/javascript" src="{{ asset('js/welcome_v1.7.js') }}"></script>
+
+<!-- events home page js start  -->
+<!-- <script src="{{ asset('js/jquery-3.6.0.min.js') }}"> </script> -->
+<script type="text/javascript" src="{{ asset('js/slick.min.js') }}"> </script>
+<script type="text/javascript" src="{{ asset('js/slider-scripts.js') }}"> </script>
+<!--  events home page js end -->
 @stop

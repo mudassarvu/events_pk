@@ -3,9 +3,9 @@
         font-size: 24px;
     }
     .bc-items-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
+        // display: flex;
+        // flex-wrap: wrap;
+        // gap: 16px;
 
         .bc-card {
             display: flex;
@@ -13,6 +13,7 @@
             box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
             padding: 5px 10px;
             border-radius: 5px;
+            margin: 10px;
             flex: 1;
             .c-heading {
                 margin: 0;
@@ -27,6 +28,20 @@
             }
             .c-text {
                 font-size: 13px;
+            }
+        }
+        .slick-next.slick-arrow, .slick-prev.slick-arrow {
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+            border-radius: 50%;
+            height: 24px;
+            width: 24px;
+            &::before {
+                display: none;
+            }
+            i {
+                font-size: 10px;
+                color: #000;
             }
         }
     }
