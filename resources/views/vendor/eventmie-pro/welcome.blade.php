@@ -15,21 +15,9 @@
                 <div id="lgx-main-slider" class="owl-carousel lgx-slider-navbottom">
                     <!--Vue slider-->
                     @guest
-                    <banner-slider :banners="{{ json_encode($banners, JSON_HEX_APOS) }}" :is_logged="{{ 0 }}"
-                        :is_customer="{{ 0 }}" :is_organiser="{{ 0 }}" :is_admin="{{ 0 }}"
-                        :is_multi_vendor="{{ setting('multi-vendor.multi_vendor') ? 1 : 0 }}"
-                        :demo_mode="{{ config('voyager.demo_mode') }}"
-                        :check_session="{{ json_encode(session('verify'), JSON_HEX_TAG) }}"
-                        :s_host="{{ json_encode($_SERVER['REMOTE_ADDR'], JSON_HEX_TAG) }}"></banner-slider>
+                    <banner-slider :banners="{{ json_encode($banners, JSON_HEX_APOS) }}" :is_logged="{{ 0 }}" :is_customer="{{ 0 }}" :is_organiser="{{ 0 }}" :is_admin="{{ 0 }}" :is_multi_vendor="{{ setting('multi-vendor.multi_vendor') ? 1 : 0 }}" :demo_mode="{{ config('voyager.demo_mode') }}" :check_session="{{ json_encode(session('verify'), JSON_HEX_TAG) }}" :s_host="{{ json_encode($_SERVER['REMOTE_ADDR'], JSON_HEX_TAG) }}"></banner-slider>
                     @else
-                    <banner-slider :banners="{{ json_encode($banners, JSON_HEX_APOS) }}" :is_logged="{{ 1 }}"
-                        :is_customer="{{ Auth::user()->hasRole('customer') ? 1 : 0 }}"
-                        :is_organiser="{{ Auth::user()->hasRole('organiser') ? 1 : 0 }}"
-                        :is_admin="{{ Auth::user()->hasRole('admin') ? 1 : 0 }}"
-                        :is_multi_vendor="{{ setting('multi-vendor.multi_vendor') ? 1 : 0 }}"
-                        :demo_mode="{{ config('voyager.demo_mode') }}"
-                        :check_session="{{ json_encode(session('verify'), JSON_HEX_TAG) }}"
-                        :s_host="{{ json_encode($_SERVER['REMOTE_ADDR'], JSON_HEX_TAG) }}"></banner-slider>
+                    <banner-slider :banners="{{ json_encode($banners, JSON_HEX_APOS) }}" :is_logged="{{ 1 }}" :is_customer="{{ Auth::user()->hasRole('customer') ? 1 : 0 }}" :is_organiser="{{ Auth::user()->hasRole('organiser') ? 1 : 0 }}" :is_admin="{{ Auth::user()->hasRole('admin') ? 1 : 0 }}" :is_multi_vendor="{{ setting('multi-vendor.multi_vendor') ? 1 : 0 }}" :demo_mode="{{ config('voyager.demo_mode') }}" :check_session="{{ json_encode(session('verify'), JSON_HEX_TAG) }}" :s_host="{{ json_encode($_SERVER['REMOTE_ADDR'], JSON_HEX_TAG) }}"></banner-slider>
                     @endguest
                 </div>
             </div>
@@ -57,7 +45,7 @@
                             <h3 class="c-heading">Education & Training</h3>
                             <p class="c-text">20455 Events</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div>
                     <div class="card bc-card">
@@ -68,7 +56,7 @@
                             <h3 class="c-heading">Education & Training</h3>
                             <p class="c-text">20455 Events</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div>
                     <div class="card bc-card">
@@ -79,7 +67,7 @@
                             <h3 class="c-heading">Education & Training</h3>
                             <p class="c-text">20455 Events</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div>
                     <div class="card bc-card">
@@ -90,7 +78,7 @@
                             <h3 class="c-heading">Education & Training</h3>
                             <p class="c-text">20455 Events</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div>
                     <div class="card bc-card">
@@ -101,7 +89,7 @@
                             <h3 class="c-heading">Education & Training</h3>
                             <p class="c-text">20455 Events</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div>
                     <div class="card bc-card">
@@ -112,7 +100,7 @@
                             <h3 class="c-heading">Education & Training</h3>
                             <p class="c-text">20455 Events</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div>
                     <div class="card bc-card">
@@ -123,7 +111,7 @@
                             <h3 class="c-heading">Education & Training</h3>
                             <p class="c-text">20455 Events</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div>
                     <div class="card bc-card">
@@ -134,7 +122,7 @@
                             <h3 class="c-heading">Education & Training</h3>
                             <p class="c-text">20455 Events</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,7 +144,7 @@
             <div class="featured-events-slider">
                 <div class="featured-events-item">
                     <div class="fe-items-wrapper">
-                        <div class="fe-card-wrapper"> 
+                        <div class="fe-card-wrapper">
                             <div class="fe-card-image-wrapper">
                                 <div class="bc-card-text">
                                     <div class="bc-date">
@@ -167,8 +155,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -184,8 +171,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -201,8 +187,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -218,8 +203,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -235,8 +219,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -252,59 +235,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="fe-card-wrapper">
-                            <div class="fe-card-image-wrapper">
-                                <div class="bc-card-text">
-                                    <div class="bc-date">
-                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                        <a class="bc-category" href="#">Science &amp; Research</a>
-                                    </div>
-                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                                    <p class="event-location">Bangkok, Thailand • Online</p>
-                                </div>
-                                <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="fe-card-wrapper">
-                            <div class="fe-card-image-wrapper">
-                                <div class="bc-card-text">
-                                    <div class="bc-date">
-                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                        <a class="bc-category" href="#">Science &amp; Research</a>
-                                    </div>
-                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                                    <p class="event-location">Bangkok, Thailand • Online</p>
-                                </div>
-                                <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="fe-card-wrapper">
-                            <div class="fe-card-image-wrapper">
-                                <div class="bc-card-text">
-                                    <div class="bc-date">
-                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                        <a class="bc-category" href="#">Science &amp; Research</a>
-                                    </div>
-                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                                    <p class="event-location">Bangkok, Thailand • Online</p>
-                                </div>
-                                <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -312,7 +243,7 @@
                 </div>
                 <div class="featured-events-item">
                     <div class="fe-items-wrapper">
-                        <div class="fe-card-wrapper"> 
+                        <div class="fe-card-wrapper">
                             <div class="fe-card-image-wrapper">
                                 <div class="bc-card-text">
                                     <div class="bc-date">
@@ -323,8 +254,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -340,8 +270,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -357,8 +286,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -374,8 +302,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -391,8 +318,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -408,59 +334,7 @@
                                     <p class="event-location">Bangkok, Thailand • Online</p>
                                 </div>
                                 <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="fe-card-wrapper">
-                            <div class="fe-card-image-wrapper">
-                                <div class="bc-card-text">
-                                    <div class="bc-date">
-                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                        <a class="bc-category" href="#">Science &amp; Research</a>
-                                    </div>
-                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                                    <p class="event-location">Bangkok, Thailand • Online</p>
-                                </div>
-                                <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="fe-card-wrapper">
-                            <div class="fe-card-image-wrapper">
-                                <div class="bc-card-text">
-                                    <div class="bc-date">
-                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                        <a class="bc-category" href="#">Science &amp; Research</a>
-                                    </div>
-                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                                    <p class="event-location">Bangkok, Thailand • Online</p>
-                                </div>
-                                <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="fe-card-wrapper">
-                            <div class="fe-card-image-wrapper">
-                                <div class="bc-card-text">
-                                    <div class="bc-date">
-                                        <p class="event-date">Fri, 29 - Sun, 31 Jul 2022</p>
-                                        <a class="bc-category" href="#">Science &amp; Research</a>
-                                    </div>
-                                    <h3 class="c-heading">Waste Conversion Technology Conference And Trade Show</h3>
-                                    <p class="event-location">Bangkok, Thailand • Online</p>
-                                </div>
-                                <div class="bc-avatar">
-                                    <img
-                                        src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
+                                    <img src="https://img.10times.com/images/event/720548/eventlogo-70-1650700114.jpg?imgeng=/w_120/h_120/m_stretch/cmpr_60">
                                 </div>
                             </div>
                         </div>
@@ -483,48 +357,100 @@
     <div class="container">
         <h3 class="heading-style">Live Webinars <i class="fas fa-satellite-dish"></i></h3>
         <div class="live-webinars-card-wrapper">
-            <div class="card lw-card-style">
-                <div class="img-wrapper">
-                    <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg"
-                        class="card-img" alt="">
-                    <span class="lw-name">Mentor Health</span>
-                    <span class="live-badge">live</span>
-                    <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
-                    <p class="card-text">Education & Training</p>
-                    <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+
+            <div>
+                <div class="card lw-card-style">
+                    <div class="img-wrapper">
+                        <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg" class="card-img" alt="">
+                        <span class="lw-name">Mentor Health</span>
+                        <span class="live-badge">live</span>
+                        <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
+                        <p class="card-text">Education & Training</p>
+                        <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="card lw-card-style">
-                <div class="img-wrapper">
-                    <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg"
-                        class="card-img" alt="">
-                    <span class="lw-name">Mentor Health</span>
-                    <span class="live-badge">live</span>
-                    <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
-                    <p class="card-text">Education & Training</p>
-                    <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+            <div>
+                <div class="card lw-card-style">
+                    <div class="img-wrapper">
+                        <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg" class="card-img" alt="">
+                        <span class="lw-name">Mentor Health</span>
+                        <span class="live-badge">live</span>
+                        <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
+                        <p class="card-text">Education & Training</p>
+                        <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="card lw-card-style">
-                <div class="img-wrapper">
-                    <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg"
-                        class="card-img" alt="">
-                    <span class="lw-name">Mentor Health</span>
-                    <span class="live-badge">live</span>
-                    <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+            <div>
+                <div class="card lw-card-style">
+                    <div class="img-wrapper">
+                        <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg" class="card-img" alt="">
+                        <span class="lw-name">Mentor Health</span>
+                        <span class="live-badge">live</span>
+                        <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
+                        <p class="card-text">Education & Training</p>
+                        <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
-                    <p class="card-text">Education & Training</p>
-                    <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+            </div>
+
+            <div>
+                <div class="card lw-card-style">
+                    <div class="img-wrapper">
+                        <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg" class="card-img" alt="">
+                        <span class="lw-name">Mentor Health</span>
+                        <span class="live-badge">live</span>
+                        <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
+                        <p class="card-text">Education & Training</p>
+                        <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card lw-card-style">
+                    <div class="img-wrapper">
+                        <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg" class="card-img" alt="">
+                        <span class="lw-name">Mentor Health</span>
+                        <span class="live-badge">live</span>
+                        <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
+                        <p class="card-text">Education & Training</p>
+                        <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card lw-card-style">
+                    <div class="img-wrapper">
+                        <img src="https://eventmie-pro.classiebit.com/storage/events/September2019/1568624835yrp78wkI5y.jpg" class="card-img" alt="">
+                        <span class="lw-name">Mentor Health</span>
+                        <span class="live-badge">live</span>
+                        <span class="lw-bookmark-btn"><i class="fa fa-bookmark"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sat, 23 - Sun, 24 Jul 2022 • 06:30 AM</h5>
+                        <p class="card-text">Education & Training</p>
+                        <a href="#" class="stretched-link title-full-link">Business Writing and Grammar Skills Made Easy and Fun</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -544,35 +470,68 @@
     <div class="container">
         <h3 class="heading-style">Browse Events by City</h3>
         <div class="events-by-city-card-wrapper">
-            <div class="card ebc-card-style">
-                <h5 class="city-name">London</h5>
-                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
-                <p class="city-events-number">2103 Events</p>
+            <div>
+                <div class="card ebc-card-style">
+                    <h5 class="city-name">London</h5>
+                    <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                    <p class="city-events-number">2103 Events</p>
+                </div>
             </div>
-            <div class="card ebc-card-style">
-                <h5 class="city-name">London</h5>
-                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
-                <p class="city-events-number">2103 Events</p>
+            <div>
+                <div class="card ebc-card-style">
+                    <h5 class="city-name">London</h5>
+                    <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                    <p class="city-events-number">2103 Events</p>
+                </div>
             </div>
-            <div class="card ebc-card-style">
-                <h5 class="city-name">London</h5>
-                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
-                <p class="city-events-number">2103 Events</p>
+            <div>
+                <div class="card ebc-card-style">
+                    <h5 class="city-name">London</h5>
+                    <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                    <p class="city-events-number">2103 Events</p>
+                </div>
             </div>
-            <div class="card ebc-card-style">
-                <h5 class="city-name">London</h5>
-                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
-                <p class="city-events-number">2103 Events</p>
+            <div>
+                <div class="card ebc-card-style">
+                    <h5 class="city-name">London</h5>
+                    <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                    <p class="city-events-number">2103 Events</p>
+                </div>
             </div>
-            <div class="card ebc-card-style">
-                <h5 class="city-name">London</h5>
-                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
-                <p class="city-events-number">2103 Events</p>
+            <div>
+                <div class="card ebc-card-style">
+                    <h5 class="city-name">London</h5>
+                    <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                    <p class="city-events-number">2103 Events</p>
+                </div>
             </div>
-            <div class="card ebc-card-style">
-                <h5 class="city-name">London</h5>
-                <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
-                <p class="city-events-number">2103 Events</p>
+            <div>
+                <div class="card ebc-card-style">
+                    <h5 class="city-name">London</h5>
+                    <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                    <p class="city-events-number">2103 Events</p>
+                </div>
+            </div>
+            <div>
+                <div class="card ebc-card-style">
+                    <h5 class="city-name">London</h5>
+                    <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                    <p class="city-events-number">2103 Events</p>
+                </div>
+            </div>
+            <div>
+                <div class="card ebc-card-style">
+                    <h5 class="city-name">London</h5>
+                    <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                    <p class="city-events-number">2103 Events</p>
+                </div>
+            </div>
+            <div>
+                <div class="card ebc-card-style">
+                    <h5 class="city-name">London</h5>
+                    <img class="city-logo" src="https://img.10times.com/img/cities/81795.jpg?imgeng=/w_35/h_35/cmpr_80" alt="">
+                    <p class="city-events-number">2103 Events</p>
+                </div>
             </div>
         </div>
     </div>
@@ -589,42 +548,42 @@
         <h3 class="heading-style">Explore Venues</h3>
         <div class="explore-venues-card-wrapper">
             <a href="#" class="ev-card-style">
-                <div class="card"> 
+                <div class="card">
                     <h5 class="events-title">Tokyo Big Sight</h5>
                     <p class="location">Koto • Japan</p>
                     <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
                 </div>
             </a>
             <a href="#" class="ev-card-style">
-                <div class="card"> 
+                <div class="card">
                     <h5 class="events-title">Tokyo Big Sight</h5>
                     <p class="location">Koto • Japan</p>
                     <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
                 </div>
             </a>
             <a href="#" class="ev-card-style">
-                <div class="card"> 
+                <div class="card">
                     <h5 class="events-title">Tokyo Big Sight</h5>
                     <p class="location">Koto • Japan</p>
                     <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
                 </div>
             </a>
             <a href="#" class="ev-card-style">
-                <div class="card"> 
+                <div class="card">
                     <h5 class="events-title">Tokyo Big Sight</h5>
                     <p class="location">Koto • Japan</p>
                     <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
                 </div>
             </a>
             <a href="#" class="ev-card-style">
-                <div class="card"> 
+                <div class="card">
                     <h5 class="events-title">Tokyo Big Sight</h5>
                     <p class="location">Koto • Japan</p>
                     <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
                 </div>
             </a>
             <a href="#" class="ev-card-style">
-                <div class="card"> 
+                <div class="card">
                     <h5 class="events-title">Tokyo Big Sight</h5>
                     <p class="location">Koto • Japan</p>
                     <p class="total-events">1030 Total Events • 612 Upcoming Events</p>
@@ -645,39 +604,46 @@
 
 <section class="featured-organizers-section">
     <div class="container">
-        <h3 class="heading-style">Featured Organizers 
-            <span class="small">worldwide leading event organisers</span></h3>
+        <h3 class="heading-style">Featured Organizers
+            <span class="small">worldwide leading event organisers</span>
+        </h3>
         <div class="featured-organizers-card-wrapper">
-            <a href="#" class="fo-card-style">
-                <div class="card"> 
-                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
-                </div>
-            </a>
-            <a href="#" class="fo-card-style">
-                <div class="card"> 
-                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
-                </div>
-            </a>
-            <a href="#" class="fo-card-style">
-                <div class="card"> 
-                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
-                </div>
-            </a>
-            <a href="#" class="fo-card-style">
-                <div class="card"> 
-                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
-                </div>
-            </a>
-            <a href="#" class="fo-card-style">
-                <div class="card"> 
-                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
-                </div>
-            </a>
-            <a href="#" class="fo-card-style">
-                <div class="card"> 
-                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image"/>
-                </div>
-            </a>
+            <div>
+                <a href="#" class="fo-card-style">
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image" />
+                </a>
+            </div>
+            <div>
+                <a href="#" class="fo-card-style">
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image" />
+                </a>
+            </div>
+            <div>
+                <a href="#" class="fo-card-style">
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image" />
+                </a>
+            </div>
+            <div>
+                <a href="#" class="fo-card-style">
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image" />
+                </a>
+            </div>
+            <div>
+                <a href="#" class="fo-card-style">
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image" />
+                </a>
+            </div>
+            <div>
+                <a href="#" class="fo-card-style">
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image" />
+                </a>
+            </div>
+            <div>
+                <a href="#" class="fo-card-style">
+                    <img src="https://img.10times.com/event/kinetic-events-capetown/1543374717394/logo1543307539.jpg?imgeng=/w_100/h_100/m_stretch/cmpr_60" alt="" class="card-image" />
+                </a>
+            </div>
+
         </div>
     </div>
 </section>
@@ -693,9 +659,9 @@
 
 <section class="popular-speakers-section">
     <div class="container">
-        <h3 class="heading-style">Popular Speakers  <span class="small">to follow</span></h3>
+        <h3 class="heading-style">Popular Speakers <span class="small">to follow</span></h3>
         <div class="popular-speakers-card-wrapper">
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/7/5/1/15098751.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Sandra Aamodt</h5>
@@ -705,7 +671,7 @@
                 </div>
             </div>
 
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/7/5/6/15098756.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Leyla Acaroglu</h5>
@@ -715,7 +681,7 @@
                 </div>
             </div>
 
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/5/1/6/15101516.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Lemon Andersen</h5>
@@ -725,7 +691,7 @@
                 </div>
             </div>
 
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/7/5/1/15098751.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Sandra Aamodt</h5>
@@ -735,7 +701,7 @@
                 </div>
             </div>
 
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/7/5/6/15098756.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Leyla Acaroglu</h5>
@@ -745,7 +711,7 @@
                 </div>
             </div>
 
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/5/1/6/15101516.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Lemon Andersen</h5>
@@ -765,9 +731,9 @@
 
 <section class="popular-speakers-section">
     <div class="container">
-        <h3 class="heading-style">Top Networker   <span class="small">to connect</span></h3>
+        <h3 class="heading-style">Top Networker <span class="small">to connect</span></h3>
         <div class="popular-speakers-card-wrapper">
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/7/5/6/15098756.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Leyla Acaroglu</h5>
@@ -777,7 +743,7 @@
                 </div>
             </div>
 
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/7/5/1/15098751.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Sandra Aamodt</h5>
@@ -787,9 +753,9 @@
                 </div>
             </div>
 
-            
 
-            <div class="card ps-card-style"> 
+
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/5/1/6/15101516.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Lemon Andersen</h5>
@@ -798,7 +764,7 @@
                     <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
                 </div>
             </div>
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/7/5/6/15098756.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Leyla Acaroglu</h5>
@@ -808,7 +774,7 @@
                 </div>
             </div>
 
-            <div class="card ps-card-style"> 
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/7/5/1/15098751.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Sandra Aamodt</h5>
@@ -818,9 +784,9 @@
                 </div>
             </div>
 
-            
 
-            <div class="card ps-card-style"> 
+
+            <div class="card ps-card-style">
                 <img src="https://img.10times.com/user/images/5/1/6/15101516.jpg?imgeng=/w_80/h_80/m_stretch/cmpr_60" class="ps-card-img">
                 <div class="card-content">
                     <h5 class="ps-name">Lemon Andersen</h5>
@@ -829,7 +795,7 @@
                     <span class="heart-icon-style"><i class="fa fa-heart"></i></span>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>
@@ -852,8 +818,7 @@
                             <form class="form-inline" type="GET" action="{{route('eventmie.events_index')}}">
                                 <div class="form-group input-group event-search">
                                     <span class="input-group-addon"><i class="fas fa-calendar-day"></i></span>
-                                    <input type="text" class="form-control" name="search"
-                                        placeholder="@lang('eventmie-pro::em.search_event_by')">
+                                    <input type="text" class="form-control" name="search" placeholder="@lang('eventmie-pro::em.search_event_by')">
                                 </div>
                                 <button type="submit" class="lgx-btn lgx-btn-black"><i class="fas fa-search"></i>
                                     @lang('eventmie-pro::em.search_event')</button>
@@ -889,8 +854,7 @@
 
                 <div class="row">
                     <div class="offset-1 col-10 col-lg-offset-1 col-lg-10">
-                        <event-listing :events="{{ json_encode($featured_events, JSON_HEX_APOS) }}"
-                            :currency="{{ json_encode($currency, JSON_HEX_APOS) }}" :date_format="{{ json_encode([
+                        <event-listing :events="{{ json_encode($featured_events, JSON_HEX_APOS) }}" :currency="{{ json_encode($currency, JSON_HEX_APOS) }}" :date_format="{{ json_encode([
                                             'vue_date_format' => format_js_date(),
                                             'vue_time_format' => format_js_time()
                                         ], JSON_HEX_APOS) }}">
@@ -899,8 +863,7 @@
                 </div>
 
                 <div class="section-btn-area">
-                    <a class="lgx-btn lgx-btn-red" href="{{ route('eventmie.events_index') }}"><i
-                            class="fas fa-calendar-day"></i> @lang('eventmie-pro::em.view_all_events')</a>
+                    <a class="lgx-btn lgx-btn-red" href="{{ route('eventmie.events_index') }}"><i class="fas fa-calendar-day"></i> @lang('eventmie-pro::em.view_all_events')</a>
                 </div>
 
             </div><!-- //.CONTAINER -->
@@ -964,8 +927,7 @@
 
                 <div class="row">
                     <div class="offset-1 col-10 col-lg-offset-1 col-lg-10">
-                        <event-listing :events="{{ json_encode($upcomming_events, JSON_HEX_APOS) }}"
-                            :currency="{{ json_encode($currency, JSON_HEX_APOS) }}" :date_format="{{ json_encode([
+                        <event-listing :events="{{ json_encode($upcomming_events, JSON_HEX_APOS) }}" :currency="{{ json_encode($currency, JSON_HEX_APOS) }}" :date_format="{{ json_encode([
                                 'vue_date_format' => format_js_date(),
                                 'vue_time_format' => format_js_time()
                             ], JSON_HEX_APOS) }}">
@@ -974,8 +936,7 @@
                 </div>
 
                 <div class="section-btn-area">
-                    <a class="lgx-btn lgx-btn-red" href="{{ route('eventmie.events_index') }}"><i
-                            class="fas fa-calendar-day"></i> @lang('eventmie-pro::em.view_all_events')</a>
+                    <a class="lgx-btn lgx-btn-red" href="{{ route('eventmie.events_index') }}"><i class="fas fa-calendar-day"></i> @lang('eventmie-pro::em.view_all_events')</a>
                 </div>
 
             </div><!-- //.CONTAINER -->
@@ -1002,8 +963,7 @@
 
                 <div class="row">
                     <div class="offset-1 col-10 col-lg-offset-1 col-lg-10">
-                        <event-listing :events="{{ json_encode($top_selling_events, JSON_HEX_APOS) }}"
-                            :currency="{{ json_encode($currency, JSON_HEX_APOS) }}" :date_format="{{ json_encode([
+                        <event-listing :events="{{ json_encode($top_selling_events, JSON_HEX_APOS) }}" :currency="{{ json_encode($currency, JSON_HEX_APOS) }}" :date_format="{{ json_encode([
                                 'vue_date_format' => format_js_date(),
                                 'vue_time_format' => format_js_time()
                             ], JSON_HEX_APOS) }}">
@@ -1012,8 +972,7 @@
                 </div>
 
                 <div class="section-btn-area">
-                    <a class="lgx-btn lgx-btn-red" href="{{ route('eventmie.events_index') }}"><i
-                            class="fas fa-calendar-day"></i> @lang('eventmie-pro::em.view_all_events')</a>
+                    <a class="lgx-btn lgx-btn-red" href="{{ route('eventmie.events_index') }}"><i class="fas fa-calendar-day"></i> @lang('eventmie-pro::em.view_all_events')</a>
                 </div>
 
             </div><!-- //.CONTAINER -->
@@ -1089,8 +1048,7 @@
                                 <div class="meta-wrapper hidden">
                                     <span>{{\Carbon\Carbon::parse($item['updated_at'])->translatedFormat(format_carbon_date())}}</span>
                                 </div>
-                                <h3 class="title"><a
-                                        href="{{route('eventmie.post_view', $item['slug'])}}">{{$item['title']}}</a>
+                                <h3 class="title"><a href="{{route('eventmie.post_view', $item['slug'])}}">{{$item['title']}}</a>
                                 </h3>
                                 <div class="meta-wrapper">
                                     <span>{{ $item['excerpt'] }}</span>
@@ -1205,9 +1163,9 @@
 
 @section('javascript')
 <script type="text/javascript">
-var google_map_key = {
-    !!json_encode(setting('apps.google_map_key')) !!
-};
+    var google_map_key = {
+        !!json_encode(setting('apps.google_map_key')) !!
+    };
 </script>
 <script type="text/javascript" src="{{ asset('js/welcome_v1.7.js') }}"></script>
 

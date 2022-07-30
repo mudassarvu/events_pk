@@ -1,19 +1,24 @@
 .events-by-city{
+    @media screen and (max-width: 576px) {
+        padding: 0 15px;
+    }
     .heading-style {
         font-size: 24px;
+        padding-left: 10px;
     }
     .events-by-city-card-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 22px;
+        // display: flex;
+        // flex-wrap: wrap;
+        // gap: 22px;
         .ebc-card-style {
             box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
             border-radius: 5px;
-            width: 15%;
+            width: calc(100% - 20px);
             position: relative;
             background: #fff;
             padding: 10px 10px;
             text-align: center;
+            margin: 10px;
             .city-name {
                 margin-top: 0;
                 font-size: 14px;
@@ -21,10 +26,25 @@
             .city-logo {
                 height: 50px;
                 max-width: 100%;
-                margin-bottom: 10px;
+                margin: 0 auto 10px;
+                // margin-bottom: 10px;
             }
             .city-events-number {
                 font-size: 14px;
+            }
+        }
+        .slick-next.slick-arrow, .slick-prev.slick-arrow {
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+            border-radius: 50%;
+            height: 24px;
+            width: 24px;
+            &::before {
+                display: none;
+            }
+            i {
+                font-size: 10px;
+                color: #000;
             }
         }
     }

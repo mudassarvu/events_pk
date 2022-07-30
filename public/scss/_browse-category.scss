@@ -1,6 +1,7 @@
 .browse-category {
     .heading-style {
         font-size: 24px;
+        padding-left: 10px;
     }
     .bc-items-wrapper {
         // display: flex;
@@ -15,6 +16,10 @@
             border-radius: 5px;
             margin: 10px;
             flex: 1;
+            @media screen and (min-width: 420px) and (max-width:540px) {
+                flex-direction: column;
+                text-align: center;
+            }
             .c-heading {
                 margin: 0;
                 font-size: 14px;

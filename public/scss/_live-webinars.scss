@@ -5,6 +5,7 @@
 
     .heading-style {
         font-size: 24px;
+        padding-left: 10px;
 
         i {
             margin-left: 10px;
@@ -14,15 +15,16 @@
     }
 
     .live-webinars-card-wrapper {
-        display: flex;
-        gap: 22px;
+        // display: flex;
+        // gap: 22px;
 
         .lw-card-style {
             box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
             border-radius: 5px;
-            width: 32%;
+            width: calc(100% - 20px);
             position: relative;
             background: #fff;
+            margin: 10px;
 
             .card-body {
                 padding: 10px;
@@ -119,12 +121,27 @@
                 }
             }
         }
+        .slick-next.slick-arrow, .slick-prev.slick-arrow {
+            background-color: #fff;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 0px;
+            border-radius: 50%;
+            height: 24px;
+            width: 24px;
+            &::before {
+                display: none;
+            }
+            i {
+                font-size: 10px;
+                color: #000;
+            }
+        }
     }
     .lw-view-all-btn {
         border-color: #6c757d;
         border-radius: 20px;
         color: #6c757d;
-        margin-top: 30px;
+        // margin-top: 30px;
+        margin-left: 10px;
         padding: 10px 30px;
         font-weight: bold;
         &:hover {
