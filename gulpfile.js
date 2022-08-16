@@ -35,7 +35,7 @@ var reload = browsersync.reload;
 // CSS task
 gulp.task("css", () => {
   return gulp
-    .src("public/scss/*.scss")
+    .src("public/scss/**/*.scss")
     .pipe(plumber())
     .pipe(sass({ outputStyle: "expanded" }))
     .pipe(rename({ suffix: ".min" }))

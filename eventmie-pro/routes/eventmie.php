@@ -106,6 +106,9 @@ Route::group([
     /* Welcome */
     Route::get('/', $namespace."\WelcomeController@index")->name('welcome');
 
+/* Welcome */
+Route::get('/organizer/{slug}', $namespace."\PackController@index")->name('welcome');
+
     Route::get('/home', function() {
         return redirect()->route('eventmie.welcome');
     });

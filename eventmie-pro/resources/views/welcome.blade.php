@@ -3,7 +3,7 @@
 @section('title') @lang('eventmie-pro::em.home') @endsection
 
 @section('content')
-
+dfds f sdf sdf dsf ds f
 <!--Banner slider start-->
 <section>
     <div class="lgx-slider welcome-slider">

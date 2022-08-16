@@ -1,0 +1,38 @@
+.followers-card {
+    background-color: #e7e7e7;
+    border-radius: 4px;
+    padding: 16px;
+    .followers-img {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .f-img-wrapper {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            margin-bottom: 0;
+            li {
+                border: 2px solid #fff;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #e7e7e7;
+                & + li {
+                    margin-left: -16px;
+                }
+            }
+        }
+        
+    }
+    .fc-text {
+        font-size: 14px;
+    }
+}
+
+
+
+
