@@ -400,11 +400,235 @@
                             <div class="organizer-content-card">
                                 <div class="row">
                                     <div class="col-md-6">
+                                        <h3>Timings</h3>
+                                        <p>10:00 AM - 6:00 PM (Jul 30) (Public)</p>
+                                        <p>10:00 AM - 4:00 PM (Jul 31) (General)</p>
+                                    </div>
 
+                                    <div class="col-md-6">
+                                        <h3>Entry Fees</h3>
+                                        <p>Paid Ticket Starts from 5 USD</p>
+                                        <p>Exhibit Booth Cost Starts from 25 USD</p>
+                                        <a href="#">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h3>Estimated Turnout</h3>
+                                        <p>3000 Visitors</p>
+                                        <p>150 Exhibitors</p>
                                     </div>
                                     <div class="col-md-6">
-                                        
+                                        <h3>Category & Type</h3>
+                                        <p><i class="fas fa-check"></i>Trade Show</p>
+                                        <p><i class="fas fa-leaf"></i><a href="#"> Agriculture & Forestry </a></p>
+                                        <p><i class="fas fa-heartbeat"></i>Wellness, Health & Fitness</p>
                                     </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h3>Editions</h3>
+                                        <p>Jul 2022 1st Edition</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3>Official Links</h3>
+                                        <div class="official-links">
+                                            <a href="#">Website</a>
+                                            <a href="#">Contacts </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p><span>Frequency</span></p>
+                                        <p><span>Annual</span></p>
+                                        <p><span>Next edition likely in Jul 2023</span></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p><span>Report Error</span></p>
+                                        <p><span>Claim this event</span></p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="organizer-profile-card">
+                                            <div class="organizer-profile">
+                                                <img src="https://seeklogo.com/images/I/igo-organizer-hatyai-logo-D767855BD3-seeklogo.com.png" alt="">
+                                                <div class="organizer-info">
+                                                    <h3> <a href="#">Canna Med Show</a><span class="tage-style">Top Rated</span></h3>
+                                                    <p class="location">USA</p>
+                                                    <p class="organizer-total-events">5 Total Events</p>
+                                                </div>
+                                            </div>
+                                            <div class="follow-company">
+                                                <a href="#"> Follow Company </a>
+                                                <p>Queries about the event? Ask Organizer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="organizer-content-card popular-visitors">
+                                <h3>Why to Attend?</h3>
+                                <h5 class="small-heading">Popular among visitors for</h5>
+                                <div class="visitors-tages">
+                                    <a href="#">Top 100 in Agriculture & Forestry in United States</a>
+                                    <a href="#">Exhibitors & Vendors</a>
+                                    <a href="#">Cleanliness</a>
+                                </div>
+                            </div>
+                            <div class="organizer-content-card">
+                                <div class="heading-wrapper">
+                                    <h3>Followers <span>[ Users who have shown interest for this Event ]</span> </h3>
+                                    <div class="join-community-wrapper">
+                                        <a href="#" class="join-community">Join Community</a>
+                                        <a href="#" class="invite-link"><i class="fas fa-user-plus"></i>Invite</a>
+                                    </div>
+                                </div>
+                                <div class="followers-filters-wrapper">
+                                    <div class="filters-dropdown">
+                                        <div class="dropdown">
+                                            <button class="btn followers-filters-dropdown dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Dropdown <i class="fas fa-chevron-down down-icon-style"></i>
+                                            </button>
+
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Separated link</a>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="btn followers-filters-dropdown dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Dropdown <i class="fas fa-chevron-down down-icon-style"></i>
+                                            </button>
+
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Separated link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sort-option">
+                                        <span>Sort By</span>
+                                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                            <option selected>Choose...</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="followers-card-wrapper">
+                                    <div class="followers-card">
+                                        <span class="visited">Visited <i class="fas fa-user-check"></i> </span>
+                                        <i class="fas fa-heart favorite-icon"></i>
+                                        <a href="#" class="name-frist-letter">M</a>
+                                        <a href="#" class="profile-name-link">Michael Felan</a>
+                                        <p class="designation">DSM at Sunoptics</p>
+                                        <p class="location"><i class="fas fa-map-marker-alt"></i> Irving, United States</p>
+                                        <a href="#" class="connect-btn">Connect</a>
+                                    </div>
+                                    <div class="followers-card">
+                                        <span class="visited">Visited <i class="fas fa-user-check"></i> </span>
+                                        <i class="fas fa-heart favorite-icon"></i>
+                                        <a href="#" class="name-frist-letter">M</a>
+                                        <a href="#" class="profile-name-link">Michael Felan</a>
+                                        <p class="designation">DSM at Sunoptics</p>
+                                        <p class="location"><i class="fas fa-map-marker-alt"></i> Irving, United States</p>
+                                        <a href="#" class="connect-btn">Connect</a>
+                                    </div>
+                                    <div class="followers-card">
+                                        <span class="visited">Visited <i class="fas fa-user-check"></i> </span>
+                                        <i class="fas fa-heart favorite-icon"></i>
+                                        <a href="#" class="name-frist-letter">M</a>
+                                        <a href="#" class="profile-name-link">Michael Felan</a>
+                                        <p class="designation">DSM at Sunoptics</p>
+                                        <p class="location"><i class="fas fa-map-marker-alt"></i> Irving, United States</p>
+                                        <a href="#" class="connect-btn">Connect</a>
+                                    </div>
+                                    <div class="followers-card">
+                                        <span class="visited">Visited <i class="fas fa-user-check"></i> </span>
+                                        <i class="fas fa-heart favorite-icon"></i>
+                                        <a href="#" class="name-frist-letter">M</a>
+                                        <a href="#" class="profile-name-link">Michael Felan</a>
+                                        <p class="designation">DSM at Sunoptics</p>
+                                        <p class="location"><i class="fas fa-map-marker-alt"></i> Irving, United States</p>
+                                        <a href="#" class="connect-btn">Connect</a>
+                                    </div>
+                                    <div class="followers-card">
+                                        <span class="visited">Visited <i class="fas fa-user-check"></i> </span>
+                                        <i class="fas fa-heart favorite-icon"></i>
+                                        <a href="#" class="name-frist-letter">M</a>
+                                        <a href="#" class="profile-name-link">Michael Felan</a>
+                                        <p class="designation">DSM at Sunoptics</p>
+                                        <p class="location"><i class="fas fa-map-marker-alt"></i> Irving, United States</p>
+                                        <a href="#" class="connect-btn">Connect</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="map-directions-list-wrapper">
+                                <div class="organizer-content-card map-directions">
+                                    <h3>Venue Map & Directions</h3>
+                                    <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a></iframe></div>
+                                    <p>Fort Worth Convention Center</p>
+                                    <p>Fort Worth, TX 76107</p>
+                                    <p>USA</p>
+                                    <a href="#" class="get-directions-btn"> Get Directions</a>
+                                </div>
+                                <div class="location-list-wrapper">
+                                    <h3>Featured Hotels in Fort Worth</h3>
+                                    <ul class="featured-hotels-list-wrapper">
+                                        <li class="list-item">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQup98lQdmqF-6HkVeqWj2lbIHPkmID9TKy4V5zDShJL80XtIJCMW9JTDZaby9BzEqletw&usqp=CAU" alt="">
+                                            <div class="hotels-content-card">
+                                                <a href="#" class="location-link">Hampton Inn & Suites Fort Worth Hampton</a>
+                                                <p class="hotel-ratting"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> from USD 101</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-item active">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQup98lQdmqF-6HkVeqWj2lbIHPkmID9TKy4V5zDShJL80XtIJCMW9JTDZaby9BzEqletw&usqp=CAU" alt="">
+                                            <div class="hotels-content-card">
+                                                <a href="#" class="location-link">Hampton Inn & Suites Fort Worth Hampton</a>
+                                                <p class="hotel-ratting"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> from USD 101</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-item">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQup98lQdmqF-6HkVeqWj2lbIHPkmID9TKy4V5zDShJL80XtIJCMW9JTDZaby9BzEqletw&usqp=CAU" alt="">
+                                            <div class="hotels-content-card">
+                                                <a href="#" class="location-link">Hampton Inn & Suites Fort Worth Hampton</a>
+                                                <p class="hotel-ratting"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> from USD 101</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-item">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQup98lQdmqF-6HkVeqWj2lbIHPkmID9TKy4V5zDShJL80XtIJCMW9JTDZaby9BzEqletw&usqp=CAU" alt="">
+                                            <div class="hotels-content-card">
+                                                <a href="#" class="location-link">Hampton Inn & Suites Fort Worth Hampton</a>
+                                                <p class="hotel-ratting"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> from USD 101</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-item">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQup98lQdmqF-6HkVeqWj2lbIHPkmID9TKy4V5zDShJL80XtIJCMW9JTDZaby9BzEqletw&usqp=CAU" alt="">
+                                            <div class="hotels-content-card">
+                                                <a href="#" class="location-link">Hampton Inn & Suites Fort Worth Hampton</a>
+                                                <p class="hotel-ratting"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> from USD 101</p>
+                                            </div>
+                                        </li>
+                                        <li class="list-item">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQup98lQdmqF-6HkVeqWj2lbIHPkmID9TKy4V5zDShJL80XtIJCMW9JTDZaby9BzEqletw&usqp=CAU" alt="">
+                                            <div class="hotels-content-card">
+                                                <a href="#" class="location-link">Hampton Inn & Suites Fort Worth Hampton</a>
+                                                <p class="hotel-ratting"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> from USD 101</p>
+                                            </div>
+                                        </li>
+                                        <a href="#" class="more-hotels-btn"> More Hotels</a>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

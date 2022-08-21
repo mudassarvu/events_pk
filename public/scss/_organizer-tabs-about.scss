@@ -219,6 +219,12 @@
             border: 1px solid #eee;
             font-size: 15px;
             border-radius: 4px;
+            a {
+                font-size: 12px;
+                &:hover {
+                    color: #029de9d6;
+                }
+            }
         }
     }
 }
@@ -275,4 +281,323 @@
             }
         }
     }
+}
+
+.organizer-content-card {
+    h3 {
+        font-size: 16px;
+        line-height: 1;
+    }
+    p {
+        font-size: 13px;
+        i {
+            margin-right: 5px;
+        }
+    }
+    a {
+        font-size: 13px;
+        &:hover {
+            color: #029de9d6;
+        }
+    }
+    .official-links {
+        display: flex;
+        gap: 5px;
+        a {
+            border: 1px solid #e7e7e7;
+            padding: 2px 10px;
+            border-radius: 4px;
+        }
+    }
+}
+.organizer-profile-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    .organizer-profile {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        img {
+            height: 70px;
+        }
+        h3 {
+            margin: 0;
+            margin-bottom: 5px;
+            .tage-style {
+                padding: 0 5px;
+                background-color: #5bc0de;
+                color: #fff;
+                font-size: 10px;
+                padding: 2px 6px;
+                margin-left: 5px;
+                border-radius: 4px;
+                font-weight: 400;
+            }
+        }
+        p {
+            line-height: 1.5;
+        }
+    }
+    .follow-company {
+        text-align: right;
+        a {
+            background: #eb663c;
+            color: #fff;
+            padding: 6px 20px;
+            display: inline-block;
+            border-radius: 4px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+    }
+}
+.organizer-content-card {
+    &.popular-visitors {
+        h3 {
+            margin-top: 0;
+        }
+        .small-heading {
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .visitors-tages {
+            display: flex;
+            gap: 10px;
+            a {
+                padding: 2px 10px;
+                background: #eff5f4;
+                border-radius: 4px;
+                font-size: 12px;
+                color: #787878;
+            }
+        }
+    }
+}
+.organizer-content-card {
+    .heading-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 1rem;
+        h3 {
+            margin: 0;
+            span {
+                color: #a9a4a4;
+                font-weight: 400;
+                font-size: 14px;
+            }
+        }
+    }
+    .join-community-wrapper {
+        display: flex;
+        gap: 10px;
+        .join-community {
+            padding: 2px 10px;
+            background-color: #eb663c;
+            color: #fff;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .invite-link {
+            i {
+                margin-right: 5px;
+            }
+            padding: 2px 10px;
+            border: 1px solid #a9a4a4;
+            color: #011b30;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+    }
+    .followers-filters-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 10px;
+        .followers-filters-dropdown {
+            background-color: transparent;
+            color: #011b30;
+            padding: 6px 30px 6px 10px;
+            position: relative;
+            border: 1px solid #ccc;
+            max-width: 150px;
+            width: 100%;
+            text-align: left;
+            .down-icon-style {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 10px;
+            }
+        }
+        .dropdown-menu {
+            // padding: 5px;
+            a {
+                display: block;
+                padding: 2px 6px;
+                color: #787878;
+                &:hover {
+                    background-color: #787878;
+                    color: #fff;
+                }
+            }
+        }
+        .filters-dropdown,
+        .sort-option {
+            display: flex;
+            gap: 10px;
+        }
+        .sort-option {
+            .custom-select {
+                background: #ede9e9;
+                border: 0;
+                border-radius: 4px;
+                padding: 3px 20px 3px 3px;
+                font-size: 13px;
+            }
+        }
+    }
+    .followers-card-wrapper {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        .followers-card {
+            padding: 20px;
+            padding-top: 30px;
+            width: calc(25% - 10px);
+            text-align: center;
+            margin-bottom: 1rem;
+            position: relative;
+            background-color: transparent;
+            border: 1px solid #e7e7e7;
+
+            &:hover {
+                box-shadow: 3px 3px 11px 1px #ccc;
+            }
+            .visited {
+                position: absolute;
+                left: 5px;
+                font-size: 12px;
+                top: 0;
+                color: #5f955f;
+            }
+            .favorite-icon {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            .name-frist-letter {
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+                background: #eb663c;
+                color: #fff;
+                font-size: 16px;
+                border-radius: 4px;
+            }
+            .profile-name-link {
+                color: #565757;
+                margin-top: 10px;
+                display: block;
+            }
+            
+            .connect-btn {
+                padding: 3px 20px;
+                background: #2bb9d7;
+                color: #fff;
+                margin-top: 10px;
+                display: inline-block;
+                font-weight: 600;
+                border-radius: 5px;
+            }    
+        }
+    }
+   
+}
+.map-directions-list-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    .map-directions {
+        width: calc(60% - 10px);
+        h3 {
+            margin-top: 0;
+        }
+    }
+    .location-list-wrapper{
+        width: 40%;
+        background-color: #fff;
+        border: 1px solid #e7e7e7;
+        border-radius: 4px;
+        margin-bottom: 1.3em;
+        h3 {
+            margin-top: 0;
+            padding: 15px 15px 0;
+            font-size: 16px;
+            line-height: 1;
+        }
+        .featured-hotels-list-wrapper {
+            padding: 0;
+            list-style: none;
+            .list-item {
+                display: flex;
+                gap: 10px;
+                padding: 15px;
+                margin-bottom: 0;
+                &:hover {
+                    background: #f5f5f5;
+                }
+                &.active {
+                    background: #f5f5f5;
+                }
+                img {
+                    height: 50px;
+                }
+                .hotels-content-card {
+                    width: calc(100% - 76px);
+                    .location-link {
+                        color: #565757;
+                        font-size: 13px;
+                        max-width: 100%;
+                        display: block;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        &:hover {
+                            color: #2bb9d7;
+                        }
+                    }
+                    .hotel-ratting {
+                        font-size: 13px;
+                        .fa-star {
+                            color: #eb663c;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }        
+        }
+    }
+    .get-directions-btn, .more-hotels-btn {
+        padding: 6px 20px;
+        background: #23a5e5;
+        display: inline-block;
+        color: #fff;
+        border-radius: 4px;
+        font-weight: 600;
+        margin-top: 1rem;
+        font-size: 13px;
+        &:hover {
+            color: #565757;
+        }
+    }
+     .more-hotels-btn {
+        margin: 15px;
+     }
 }
