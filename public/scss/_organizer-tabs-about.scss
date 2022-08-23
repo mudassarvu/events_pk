@@ -506,7 +506,7 @@
                 margin-top: 10px;
                 display: block;
             }
-            
+
             .connect-btn {
                 padding: 3px 20px;
                 background: #2bb9d7;
@@ -515,10 +515,9 @@
                 display: inline-block;
                 font-weight: 600;
                 border-radius: 5px;
-            }    
+            }
         }
     }
-   
 }
 .map-directions-list-wrapper {
     display: flex;
@@ -530,7 +529,7 @@
             margin-top: 0;
         }
     }
-    .location-list-wrapper{
+    .location-list-wrapper {
         width: 40%;
         background-color: #fff;
         border: 1px solid #e7e7e7;
@@ -581,10 +580,11 @@
                         }
                     }
                 }
-            }        
+            }
         }
     }
-    .get-directions-btn, .more-hotels-btn {
+    .get-directions-btn,
+    .more-hotels-btn {
         padding: 6px 20px;
         background: #23a5e5;
         display: inline-block;
@@ -597,7 +597,91 @@
             color: #565757;
         }
     }
-     .more-hotels-btn {
+    .more-hotels-btn {
         margin: 15px;
-     }
+    }
+}
+
+.price-packages-wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 40px;
+    .price-package-card {
+        width: 33.3%;
+        text-align: center;
+        box-shadow: -1px 0px 16px 4px #aaaaaa;
+        border-radius: 10px;
+        .pp-name {
+            margin: 0;
+            padding: 20px 0;
+            background: #fff;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .card-contact-wrapper {
+            padding: 30px 1rem;
+            .p-price {
+                font-size: 40px;
+                sup {
+                    font-weight: normal;
+                }
+                margin-bottom: 10px;
+                line-height: 1;
+                color: #fff;
+            }
+            .package-description {
+                font-size: 18px;
+                margin: 20px 0 20px;
+                color: #fff;
+            }
+            .services-provide-list {
+                list-style: none;
+                padding: 0;
+                li {
+                    padding: 10px;
+                    border-bottom: 1px solid #f7f7ff;
+                    color: #fff;
+                }
+            }
+            .subscribe-btn {
+                background: #fff;
+                border: 1px solid #fff;
+                padding: 10px 30px;
+                border-radius: 4px;
+                margin-top: 20px;
+                cursor: pointer;
+                font-weight: 600;
+            }
+        }
+        &.start {
+            background: #39b2c1;
+            .pp-name {
+                color: #39b2c1;
+            }
+            .subscribe-btn {
+                color: #39b2c1;
+            }
+        }
+        &.premium {
+            background: #fea62a;
+            .pp-name {
+                color: #fea62a;
+            }
+            .subscribe-btn {
+                color: #fea62a;
+            }
+        }
+        &.advanced {
+            background: #fa7372;
+            .pp-name {
+                color: #fa7372;
+            }
+            .subscribe-btn {
+                color: #fa7372;
+            }  
+        }
+    }
 }

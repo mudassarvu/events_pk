@@ -337,6 +337,51 @@
             </div>
 
         </div>
+
+        <div class="price-packages-wrapper">
+            <div class="price-package-card start">
+                <h3 class="pp-name">START</h3>
+                <div class="card-contact-wrapper">
+                    <h4 class="p-price">$15<sup>.00</sup></h4>
+                    <p class="package-description">LOREM IPSUM</p>
+                    <ul class="services-provide-list">
+                        <li>15 Users</li>
+                        <li>20 GB</li>
+                        <li>4 Domains</li>
+                        <li>Free Update</li>
+                    </ul>
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+            <div class="price-package-card premium">
+                <h3 class="pp-name">PREMIUM</h3>
+                <div class="card-contact-wrapper">
+                    <h4 class="p-price">$45<sup>.00</sup></h4>
+                    <p class="package-description">LOREM IPSUM</p>
+                    <ul class="services-provide-list">
+                        <li>$30 Users</li>
+                        <li>45 GB</li>
+                        <li>8 Domains</li>
+                        <li>Free Update</li>
+                    </ul>
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+            <div class="price-package-card advanced">
+                <h3 class="pp-name">ADVANCED</h3>
+                <div class="card-contact-wrapper">
+                    <h4 class="p-price">$30<sup>.00</sup></h4>
+                    <p class="package-description">LOREM IPSUM</p>
+                    <ul class="services-provide-list">
+                        <li>45 Users</li>
+                        <li>150 GB</li>
+                        <li>10 Domains</li>
+                        <li>Free Update</li>
+                    </ul>
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="layout-with-sider-wrapper">
